@@ -97,6 +97,33 @@ johnstownii:
 killarney-huckross-house:
   - https://cli.fusio.net/cli/climate_data/webdata/dly3205.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly3205.csv
+derrygreenagh:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly3431.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly3431.csv
+
+straide:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly3335.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly3335.csv
+carron:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1718.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1718.csv
+ardtarmon:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2736.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2736.csv
+belderrig:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly4535.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly4535.csv
+craggaunowen:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly5911.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly5911.csv
+ballymore:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly6729.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly6729.csv
+dooks:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly4705.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly4705.csv
+
+
 ##### Closed Stations (no point in re-scraping)
 #birr:
 #  - https://cli.fusio.net/cli/climate_data/webdatac/hly4919.csv

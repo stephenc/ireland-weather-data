@@ -18,6 +18,10 @@ on:
   schedule:
     - cron: '0 0 * * 1' # every Monday at 00:00 UTC
   workflow_dispatch:
+  push:
+    paths:
+      - 'data-sources.yaml'
+      - '.github/workflows/scrape.yml'
 
 permissions:
   contents: write
