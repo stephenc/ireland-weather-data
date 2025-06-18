@@ -561,64 +561,243 @@ kilsheelan:
 # navan:
 #   - https://cli.fusio.net/cli/climate_data/webdatac/dly2531.csv
 #   - https://cli.fusio.net/cli/climate_data/webdatac/mly2531.csv
-
-pettigo:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2537.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2537.csv
-rossinver:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2540.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2540.csv
-glentornan:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2541.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2541.csv
-ballyfa:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2621.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2621.csv  
-kilcoole:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2624.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2624.csv
-gouganebarra:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2704.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2704.csv
-rockcorry:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2737.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2737.csv
-gortnaleck:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2740.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2740.csv
-barna:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly3006.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly3006.csv
-newbliss:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly3137.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly3137.csv
-tallow:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly3406.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly3406.csv
-kilberry:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly3514.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly3514.csv
-graiguenamanagh:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly3614.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly3614.csv
-bruff:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly3711.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly3711.csv
-ballineen:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly4002.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly4002.csv
-coon:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly4013.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly4013.csv
-enniscoe:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly4035.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly4035.csv
-cornamona:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly4227.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly4227.csv
-mountdillon:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly4329.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly4329.csv
-massbrook:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly4335.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly4335.csv
+# pettigo:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly2537.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly2537.csv
+# rossinver:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly2540.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly2540.csv
+# glentornan:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly2541.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly2541.csv
+# ballyfa:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly2621.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly2621.csv  
+# kilcoole:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly2624.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly2624.csv
+# gouganebarra:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly2704.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly2704.csv
+# rockcorry:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly2737.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly2737.csv
+# gortnaleck:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly2740.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly2740.csv
+# barna:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly3006.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly3006.csv
+# newbliss:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly3137.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly3137.csv
+# tallow:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly3406.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly3406.csv
+# kilberry:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly3514.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly3514.csv
+# graiguenamanagh:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly3614.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly3614.csv
+# bruff:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly3711.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly3711.csv
+# ballineen:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly4002.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly4002.csv
+# coon:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly4013.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly4013.csv
+# enniscoe:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly4035.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly4035.csv
+# cornamona:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly4227.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly4227.csv
+# mountdillon:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly4329.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly4329.csv
+# massbrook:
+#   - https://cli.fusio.net/cli/climate_data/webdatac/dly4335.csv
+#   - https://cli.fusio.net/cli/climate_data/webdatac/mly4335.csv
+ballintrideen:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly4402.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly4402.csv
+rathgormack:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly4512.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly4512.csv
+lisheen:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly4702.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly4702.csv
+abbeyleix:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly4713.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly4713.csv
+coolavin:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly4729.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly4729.csv
+derrycashel:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly5029.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly5029.csv
+glenbeigh:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly5105.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly5105.csv
+aughnacross:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly5113.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly5113.csv
+knightstown:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly5205.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly5205.csv
+rathaspick:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly5315.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly5315.csv
+kildorrery:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly5606.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly5606.csv
+meanus:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly5811.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly5811.csv
+boherboe:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly5906.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly5906.csv
+derrycolumb:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly6529.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly6529.csv
+cloontuskert:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly6629.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly6629.csv
+rostellan:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly6804.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly6804.csv
+tallaght:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly6823.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly6823.csv
+clondalkin:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly7023.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly7023.csv
+ballinagare:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly7129.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly7129.csv
+adamstown:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly7412.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly7412.csv
+shanballymore:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly8306.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly8306.csv
+maynooth:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly8323.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly8323.csv
+lismore:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly8506.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly8506.csv
+barrockstown:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly9123.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly9123.csv
+cavan-drumconnick:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly4137.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly4137.csv
+dun-laoghaire:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly9223.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly9223.csv
+tralee-clash:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly109.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly109.csv
+glengarriff-ilnacullin:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly201.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly201.csv
+glenties-hatchery:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly441.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly441.csv
+rathdrum-avondale:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly520.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly520.csv
+markree-castle:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly636.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly636.csv
+mallow-hazelwood:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly706.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly706.csv
+johnstown-castle:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly915.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly915.csv
+kells-headfort:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly931.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly931.csv
+waterford-tycor:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1812.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1812.csv
+dublin-glasnevin:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1823.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1823.csv
+peamount-san:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly2923.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly2923.csv
+howth-danesfort:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly3023.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly3023.csv
+mountmellick-anngrove:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly814.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly814.csv
+clogheen-glenleigh:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly1312.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly1312.csv
+bellacorrick-moneynierin:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly934.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly934.csv
+newport-srahmore:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly733.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly733.csv
+tralee-caherweesheen:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly1009.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly1009.csv
+carrickmacross-dunoge:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2038.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2038.csv
+newport-furnace:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly833.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly833.csv
+mooncoin-silverspring:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly5212.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly5212.csv
+ballinrobe-creagh:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly3827.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly3827.csv
+dunsany-grange:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly3731.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly3731.csv
+cape-clear:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly3002.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly3002.csv
+portlaoise-coolnamona:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly4614.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly4614.csv
+glencolumbkille-cashel:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly1441.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly1441.csv
+ardee-boharnamoe:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2638.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2638.csv
+sherkin-island:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly3402.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly3402.csv
+carnsore-point:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly3615.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly3615.csv
+glencolumbkille-drimroe:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly1741.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly1741.csv
+carnechurchtown:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly3815.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly3815.csv
+tralee-lisdara:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly1309.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly1309.csv
+letterkenny-magherenan:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly1243.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly1243.csv
+fermoy-coolnakilla:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly4806.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly4806.csv
+ardfert-liscahane:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1609.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1609.csv
