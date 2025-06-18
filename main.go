@@ -15,13 +15,14 @@
 package main
 
 import (
+	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
 	"time"
 
 	"gopkg.in/yaml.v3"
@@ -31,6 +32,7 @@ const (
 	dataSourcesFile = "data-sources.yaml"
 	metadataFile    = ".metadata.yaml"
 	dateFormat      = "2006-01-02"
+	maxParallel     = 16
 )
 
 type MetadataEntry struct {
@@ -41,111 +43,126 @@ type MetadataEntry struct {
 type Metadata map[string]MetadataEntry
 type DataSources map[string][]string
 
+type fetchTask struct {
+	dir string
+	url string
+}
+
 func main() {
 	log.SetFlags(0)
 	today := time.Now().Format(dateFormat)
 
 	dataSources := readDataSources()
 	metadata := readMetadata()
+	tasks := make(chan fetchTask, maxParallel)
 
-	var hadError bool
+	var wg sync.WaitGroup
+	var mu sync.Mutex
+	hadError := false
 
+	// Start worker pool
+	for i := 0; i < maxParallel; i++ {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			for task := range tasks {
+				if err := fetchOne(task.dir, task.url, today, metadata, &mu); err != nil {
+					log.Printf("Error fetching %s: %v", task.url, err)
+					mu.Lock()
+					hadError = true
+					mu.Unlock()
+				}
+			}
+		}()
+	}
+
+	// Dispatch tasks
 	for dir, urls := range dataSources {
 		if err := os.MkdirAll(dir, 0755); err != nil {
 			log.Fatalf("Failed to create directory %s: %v", dir, err)
 		}
-
 		for _, url := range urls {
-			log.Printf("Checking %s", url)
-
-			meta := metadata[url]
-			req, err := http.NewRequest("GET", url, nil)
-			if err != nil {
-				log.Printf("Error creating request: %v", err)
-				hadError = true
-				continue
-			}
-
-			if meta.LastModified != "" {
-				req.Header.Set("If-Modified-Since", meta.LastModified)
-			}
-			if meta.ETag != "" {
-				req.Header.Set("If-None-Match", meta.ETag)
-			}
-
-			resp, err := http.DefaultClient.Do(req)
-			if err != nil {
-				log.Printf("Request failed for %s: %v", url, err)
-				hadError = true
-				continue
-			}
-			resp.Body.Close() // will re-open later if 200
-
-			if resp.StatusCode == http.StatusNotModified {
-				log.Printf("Not modified: %s", url)
-				continue
-			}
-
-			if resp.StatusCode != http.StatusOK {
-				log.Printf("Unexpected response for %s: %s", url, resp.Status)
-				hadError = true
-				continue
-			}
-
-			// Stream response to a temporary file
-			resp, err = http.DefaultClient.Do(req)
-			if err != nil {
-				log.Printf("Retry request failed for %s: %v", url, err)
-				hadError = true
-				continue
-			}
-			defer resp.Body.Close()
-
-			base := filepath.Base(url)
-			outPath := filepath.Join(dir, strings.TrimSuffix(base, ".csv")+"-"+today+".csv")
-
-			tmpFile, err := ioutil.TempFile(dir, "tmp")
-			if err != nil {
-				log.Printf("Error creating temp file: %v", err)
-				hadError = true
-				continue
-			}
-
-			_, err = io.Copy(tmpFile, resp.Body)
-			tmpFile.Close()
-			if err != nil {
-				log.Printf("Error writing to file: %v", err)
-				os.Remove(tmpFile.Name())
-				hadError = true
-				continue
-			}
-
-			if err := os.Rename(tmpFile.Name(), outPath); err != nil {
-				log.Printf("Error renaming file: %v", err)
-				hadError = true
-				continue
-			}
-			log.Printf("Downloaded: %s → %s", url, outPath)
-
-			// Preserve last-modified time
-			if lm := resp.Header.Get("Last-Modified"); lm != "" {
-				if t, err := http.ParseTime(lm); err == nil {
-					os.Chtimes(outPath, time.Now(), t)
-					meta.LastModified = lm
-				}
-			}
-			if etag := resp.Header.Get("ETag"); etag != "" {
-				meta.ETag = etag
-			}
-			metadata[url] = meta
+			tasks <- fetchTask{dir: dir, url: url}
 		}
 	}
+	close(tasks)
+	wg.Wait()
 
 	writeMetadata(metadata)
 
 	if hadError {
 		os.Exit(1)
 	}
+}
+
+func fetchOne(dir, url, today string, metadata Metadata, mu *sync.Mutex) error {
+	log.Printf("Checking %s", url)
+
+	mu.Lock()
+	meta := metadata[url]
+	mu.Unlock()
+
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		return err
+	}
+	if meta.LastModified != "" {
+		req.Header.Set("If-Modified-Since", meta.LastModified)
+	}
+	if meta.ETag != "" {
+		req.Header.Set("If-None-Match", meta.ETag)
+	}
+
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode == http.StatusNotModified {
+		log.Printf("Not modified: %s", url)
+		return nil
+	}
+	if resp.StatusCode != http.StatusOK {
+		return fmt.Errorf("unexpected response: %s", resp.Status)
+	}
+
+	base := filepath.Base(url)
+	outPath := filepath.Join(dir, strings.TrimSuffix(base, ".csv")+"-"+today+".csv")
+
+	tmpFile, err := os.CreateTemp(dir, "tmp")
+	if err != nil {
+		return err
+	}
+	defer os.Remove(tmpFile.Name())
+
+	_, err = io.Copy(tmpFile, resp.Body)
+	tmpFile.Close()
+	if err != nil {
+		return err
+	}
+
+	if err := os.Rename(tmpFile.Name(), outPath); err != nil {
+		return err
+	}
+	log.Printf("Downloaded: %s → %s", url, outPath)
+
+	// Update metadata
+	newMeta := MetadataEntry{}
+	if lm := resp.Header.Get("Last-Modified"); lm != "" {
+		if t, err := http.ParseTime(lm); err == nil {
+			os.Chtimes(outPath, time.Now(), t)
+			newMeta.LastModified = lm
+		}
+	}
+	if etag := resp.Header.Get("ETag"); etag != "" {
+		newMeta.ETag = etag
+	}
+
+	mu.Lock()
+	metadata[url] = newMeta
+	mu.Unlock()
+	return nil
 }
 
 func readDataSources() DataSources {
