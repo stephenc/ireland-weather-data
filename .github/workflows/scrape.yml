@@ -41,7 +41,7 @@ jobs:
           go-version: '1.22'
 
       - name: Run data fetcher
-        run: go run .
+        run: go run ./main.go
 
       - name: Configure git
         run: |
