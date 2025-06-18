@@ -1,0 +1,5 @@
+valentia:
+- https://cli.fusio.net/cli/climate_data/webdata/hly2275.csv
+- https://cli.fusio.net/cli/climate_data/webdata/dly2275.csv
+malin-head:
+- https://cli.fusio.net/cli/climate_data/webdata/dly1575.csv
