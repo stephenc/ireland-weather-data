@@ -10,16 +10,10 @@ phoenix-park:
   - https://cli.fusio.net/cli/climate_data/webdata/hly175.csv
   - https://cli.fusio.net/cli/climate_data/webdata/dly175.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly175.csv
-birr:
-  - https://cli.fusio.net/cli/climate_data/webdatac/hly4919.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly4919.csv
 casement:
   - https://cli.fusio.net/cli/climate_data/webdata/hly3723.csv
   - https://cli.fusio.net/cli/climate_data/webdata/dly3723.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly3723.csv
-clones:
-  - https://cli.fusio.net/cli/climate_data/webdatac/hly2437.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2437.csv
 dunsany:
   - https://cli.fusio.net/cli/climate_data/webdata/hly1375.csv
   - https://cli.fusio.net/cli/climate_data/webdata/dly1375.csv
@@ -52,10 +46,6 @@ gurteen:
   - https://cli.fusio.net/cli/climate_data/webdata/hly1475.csv
   - https://cli.fusio.net/cli/climate_data/webdata/dly1475.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly1475.csv
-killkenny:
-  - https://cli.fusio.net/cli/climate_data/webdatac/hly3613.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly3613.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly3613.csv
 markree:
   - https://cli.fusio.net/cli/climate_data/webdata/hly1275.csv
   - https://cli.fusio.net/cli/climate_data/webdata/dly1275.csv
@@ -64,10 +54,6 @@ newport:
   - https://cli.fusio.net/cli/climate_data/webdata/hly1175.csv
   - https://cli.fusio.net/cli/climate_data/webdata/dly1175.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly1175.csv
-rosslare:
-  - https://cli.fusio.net/cli/climate_data/webdatac/hly2615.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2615.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2615.csv
 knock-airport:
   - https://cli.fusio.net/cli/climate_data/webdata/hly4935.csv
   - https://cli.fusio.net/cli/climate_data/webdata/dly4935.csv
@@ -92,10 +78,6 @@ dublin-airport:
   - https://cli.fusio.net/cli/climate_data/webdata/hly532.csv
   - https://cli.fusio.net/cli/climate_data/webdata/dly532.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly532.csv
-foynes-airport:
-  - https://cli.fusio.net/cli/climate_data/webdatac/hly611.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly611.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly611.csv
 mace-head:
   - https://cli.fusio.net/cli/climate_data/webdata/hly275.csv
   - https://cli.fusio.net/cli/climate_data/webdata/dly275.csv
@@ -112,13 +94,32 @@ johnstownii:
   - https://cli.fusio.net/cli/climate_data/webdata/hly1775.csv
   - https://cli.fusio.net/cli/climate_data/webdata/dly1775.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly1775.csv
-camp-glannagalt:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2109.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2109.csv
-galway-sws:
-  - https://cli.fusio.net/cli/climate_data/webdatac/hly2021.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2021.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2021.csv
 killarney-huckross-house:
   - https://cli.fusio.net/cli/climate_data/webdata/dly3205.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly3205.csv
+##### Closed Stations (no point in re-scraping)
+#birr:
+#  - https://cli.fusio.net/cli/climate_data/webdatac/hly4919.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/dly4919.csv
+#clones:
+#  - https://cli.fusio.net/cli/climate_data/webdatac/hly2437.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/dly2437.csv
+#killkenny:
+#  - https://cli.fusio.net/cli/climate_data/webdatac/hly3613.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/dly3613.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/mly3613.csv
+#rosslare:
+#  - https://cli.fusio.net/cli/climate_data/webdatac/hly2615.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/dly2615.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/mly2615.csv
+#foynes-airport:
+#  - https://cli.fusio.net/cli/climate_data/webdatac/hly611.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/dly611.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/mly611.csv
+#camp-glannagalt:
+#  - https://cli.fusio.net/cli/climate_data/webdatac/dly2109.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/mly2109.csv
+#galway-sws:
+#  - https://cli.fusio.net/cli/climate_data/webdatac/hly2021.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/dly2021.csv
+#  - https://cli.fusio.net/cli/climate_data/webdatac/mly2021.csv
