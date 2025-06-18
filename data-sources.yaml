@@ -164,7 +164,54 @@ tulla:
 omeath:
   - https://cli.fusio.net/cli/climate_data/webdata/dly1338.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly1338.csv
-
+monamolin:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1416.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1416.csv
+glenmacnass:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1420.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1420.csv
+roundstone:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1725.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1725.csv
+drumshanbo:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1729.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1729.csv
+derriana:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1803.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1803.csv
+coomclogh:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1901.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1901.csv
+kenmare:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1903.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1903.csv
+inishmore:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1925.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1925.csv
+killadoon:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1926.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1926.csv
+quilty:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2017.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2017.csv
+inishbofin:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2026.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2026.csv
+kincasslagh:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2041.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2041.csv
+camus:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2225.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2225.csv
+clifden:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2226.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2226.csv
+carndolla:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2227.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2227.csv
+gladree:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2334.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2334.csv
 
 ##### Closed Stations (no point in re-scraping)
 #birr:
