@@ -488,9 +488,9 @@ ballina-shanaghy:
 ballinagare-ballincool:
   - https://cli.fusio.net/cli/climate_data/webdata/dly7529.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly7529.csv
-ballinameen-gs:
-  - https://cli.fusio.net/cli/climate_data/webdata/dly5937.csv
-  - https://cli.fusio.net/cli/climate_data/webdata/mly5937.csv
+# ballinameen-gs:
+#   - https://cli.fusio.net/cli/climate_data/webdata/dly5937.csv
+#   - https://cli.fusio.net/cli/climate_data/webdata/mly5937.csv
 ballinamore-tullyoscar:
   - https://cli.fusio.net/cli/climate_data/webdata/dly6137.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly6137.csv
@@ -530,8 +530,8 @@ ballyedmonduff-house:
 ballyhahill-glenbawn:
   - https://cli.fusio.net/cli/climate_data/webdata/dly6311.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly6311.csv
-ballyhaise-agrcoll:
-  - https://cli.fusio.net/cli/climate_data/webdata/mly675.csv
+# ballyhaise-agrcoll:
+#   - https://cli.fusio.net/cli/climate_data/webdata/mly675.csv
 ballyhaunis-lavallyroe:
   - https://cli.fusio.net/cli/climate_data/webdata/dly5727.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly5727.csv
@@ -1209,7 +1209,8 @@ killucanballyhaw:
   - https://cli.fusio.net/cli/climate_data/webdatac/dly5831.csv
   - https://cli.fusio.net/cli/climate_data/webdatac/mly5831.csv
 adare-manor:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly6411.csv
+  # missing
+  # - https://cli.fusio.net/cli/climate_data/webdatac/dly6411.csv
 derrynane-abbey:
   - https://cli.fusio.net/cli/climate_data/webdatac/dly103.csv
   - https://cli.fusio.net/cli/climate_data/webdatac/mly103.csv
