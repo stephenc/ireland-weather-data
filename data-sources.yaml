@@ -406,6 +406,8 @@ collooney:
 inver:
   - https://cli.fusio.net/cli/climate_data/webdatac/dly2840.csv
   - https://cli.fusio.net/cli/climate_data/webdatac/mly2840.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly2534.csv
+  - https://cli.fusio.net/cli/climate_data/webdatac/mly2534.csv
 aughafin:
   - https://cli.fusio.net/cli/climate_data/webdatac/dly6429.csv
   - https://cli.fusio.net/cli/climate_data/webdatac/mly6429.csv
@@ -559,7 +561,4 @@ riverstown:
 navan:
   - https://cli.fusio.net/cli/climate_data/webdatac/dly2531.csv
   - https://cli.fusio.net/cli/climate_data/webdatac/mly2531.csv
-inver:
-  - https://cli.fusio.net/cli/climate_data/webdatac/dly2534.csv
-  - https://cli.fusio.net/cli/climate_data/webdatac/mly2534.csv
   
