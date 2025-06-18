@@ -4,33 +4,66 @@ https://cli.fusio.net/cli/climate_data/webdata/dly175.csv:
 https://cli.fusio.net/cli/climate_data/webdata/dly275.csv:
   last_modified: Sat, 14 Jun 2025 15:46:44 GMT
   etag: '"41082-abbdc-6378a11ce2100"'
+https://cli.fusio.net/cli/climate_data/webdata/dly509.csv:
+  last_modified: Sat, 14 Jun 2025 15:44:06 GMT
+  etag: '"41123-6e1e9-6378a08633d80"'
 https://cli.fusio.net/cli/climate_data/webdata/dly518.csv:
   last_modified: Sat, 14 Jun 2025 15:47:28 GMT
   etag: '"41128-2a7461-6378a146d8400"'
 https://cli.fusio.net/cli/climate_data/webdata/dly532.csv:
   last_modified: Sat, 14 Jun 2025 15:47:34 GMT
   etag: '"41137-2d90ad-6378a14c91180"'
+https://cli.fusio.net/cli/climate_data/webdata/dly542.csv:
+  last_modified: Sat, 14 Jun 2025 15:44:07 GMT
+  etag: '"41141-87d5e-6378a08727fc0"'
 https://cli.fusio.net/cli/climate_data/webdata/dly575.csv:
   last_modified: Sat, 14 Jun 2025 15:46:45 GMT
   etag: '"41161-af28a-6378a11dd6340"'
 https://cli.fusio.net/cli/climate_data/webdata/dly675.csv:
   last_modified: Sat, 14 Jun 2025 15:46:46 GMT
   etag: '"411b5-b3559-6378a11eca580"'
+https://cli.fusio.net/cli/climate_data/webdata/dly718.csv:
+  last_modified: Sat, 14 Jun 2025 15:44:09 GMT
+  etag: '"411ca-88c4a-6378a08910440"'
 https://cli.fusio.net/cli/climate_data/webdata/dly775.csv:
   last_modified: Sat, 14 Jun 2025 15:46:46 GMT
   etag: '"411de-ad84a-6378a11eca580"'
+https://cli.fusio.net/cli/climate_data/webdata/dly820.csv:
+  last_modified: Sun, 07 Jul 2024 15:44:10 GMT
+  etag: '"411ec-7dfe0-61caa2ae60680"'
+https://cli.fusio.net/cli/climate_data/webdata/dly839.csv:
+  last_modified: Sat, 14 Jun 2025 15:44:10 GMT
+  etag: '"411f0-421ec-6378a08a04680"'
 https://cli.fusio.net/cli/climate_data/webdata/dly875.csv:
   last_modified: Sat, 14 Jun 2025 15:46:52 GMT
   etag: '"411fa-1b1d88-6378a12483300"'
+https://cli.fusio.net/cli/climate_data/webdata/dly908.csv:
+  last_modified: Sat, 14 Jun 2025 15:44:10 GMT
+  etag: '"41202-341d0-6378a08a04680"'
+https://cli.fusio.net/cli/climate_data/webdata/dly1033.csv:
+  last_modified: Sat, 14 Jun 2025 15:44:12 GMT
+  etag: '"40fca-4c82f-6378a08becb00"'
 https://cli.fusio.net/cli/climate_data/webdata/dly1075.csv:
   last_modified: Sat, 14 Jun 2025 15:46:57 GMT
   etag: '"40fcd-1a845c-6378a12947e40"'
+https://cli.fusio.net/cli/climate_data/webdata/dly1103.csv:
+  last_modified: Sun, 07 Jul 2024 15:44:14 GMT
+  etag: '"40fd0-76b86-61caa2b230f80"'
+https://cli.fusio.net/cli/climate_data/webdata/dly1128.csv:
+  last_modified: Sat, 14 Jun 2025 15:44:14 GMT
+  etag: '"40fd5-89bab-6378a08dd4f80"'
 https://cli.fusio.net/cli/climate_data/webdata/dly1175.csv:
   last_modified: Sat, 14 Jun 2025 15:46:57 GMT
   etag: '"40fd8-a6904-6378a12947e40"'
+https://cli.fusio.net/cli/climate_data/webdata/dly1218.csv:
+  last_modified: Sat, 14 Jun 2025 15:44:15 GMT
+  etag: '"40fdd-91bd1-6378a08ec91c0"'
 https://cli.fusio.net/cli/climate_data/webdata/dly1275.csv:
   last_modified: Sat, 14 Jun 2025 15:47:32 GMT
   etag: '"40fe1-5b2d1-6378a14aa8d00"'
+https://cli.fusio.net/cli/climate_data/webdata/dly1338.csv:
+  last_modified: Sat, 14 Jun 2025 15:44:17 GMT
+  etag: '"40fe6-8f11c-6378a090b1640"'
 https://cli.fusio.net/cli/climate_data/webdata/dly1375.csv:
   last_modified: Sat, 14 Jun 2025 15:46:58 GMT
   etag: '"40fe7-9d22f-6378a12a3c080"'
@@ -67,6 +100,9 @@ https://cli.fusio.net/cli/climate_data/webdata/dly2375.csv:
 https://cli.fusio.net/cli/climate_data/webdata/dly2736.csv:
   last_modified: Sat, 14 Jun 2025 15:46:32 GMT
   etag: '"41081-86068-6378a11170600"'
+https://cli.fusio.net/cli/climate_data/webdata/dly2928.csv:
+  last_modified: Mon, 07 Nov 2022 15:49:04 GMT
+  etag: '"4108f-2907d-5ece35ce81c00"'
 https://cli.fusio.net/cli/climate_data/webdata/dly3205.csv:
   last_modified: Sun, 07 Feb 2021 15:48:27 GMT
   etag: '"410a1-bb5e0-5bac0fbf248c0"'
@@ -76,6 +112,9 @@ https://cli.fusio.net/cli/climate_data/webdata/dly3335.csv:
 https://cli.fusio.net/cli/climate_data/webdata/dly3431.csv:
   last_modified: Sat, 14 Jun 2025 15:46:35 GMT
   etag: '"410b0-eae5d-6378a1144ccc0"'
+https://cli.fusio.net/cli/climate_data/webdata/dly3522.csv:
+  last_modified: Sat, 14 Jun 2025 15:46:36 GMT
+  etag: '"410b5-3f2d9-6378a11540f00"'
 https://cli.fusio.net/cli/climate_data/webdata/dly3723.csv:
   last_modified: Sat, 14 Jun 2025 15:47:29 GMT
   etag: '"410c1-20e029-6378a147cc640"'
@@ -91,6 +130,9 @@ https://cli.fusio.net/cli/climate_data/webdata/dly4705.csv:
 https://cli.fusio.net/cli/climate_data/webdata/dly4935.csv:
   last_modified: Sat, 14 Jun 2025 15:47:31 GMT
   etag: '"41118-f345e-6378a149b4ac0"'
+https://cli.fusio.net/cli/climate_data/webdata/dly5513.csv:
+  last_modified: Sat, 14 Jun 2025 15:46:38 GMT
+  etag: '"41148-355e0-6378a11729380"'
 https://cli.fusio.net/cli/climate_data/webdata/dly5911.csv:
   last_modified: Sun, 07 Feb 2021 15:51:06 GMT
   etag: '"4116e-574c4-5bac1056c6e80"'
@@ -175,33 +217,66 @@ https://cli.fusio.net/cli/climate_data/webdata/mly175.csv:
 https://cli.fusio.net/cli/climate_data/webdata/mly275.csv:
   last_modified: Sat, 14 Jun 2025 15:49:02 GMT
   etag: '"41339-339c-6378a1a07d780"'
+https://cli.fusio.net/cli/climate_data/webdata/mly509.csv:
+  last_modified: Sat, 14 Jun 2025 15:47:36 GMT
+  etag: '"41409-4f63-6378a14e79600"'
 https://cli.fusio.net/cli/climate_data/webdata/mly518.csv:
   last_modified: Sat, 14 Jun 2025 15:49:05 GMT
   etag: '"41411-c929-6378a1a359e40"'
 https://cli.fusio.net/cli/climate_data/webdata/mly532.csv:
   last_modified: Sat, 14 Jun 2025 15:49:06 GMT
   etag: '"41429-d1ff-6378a1a44e080"'
+https://cli.fusio.net/cli/climate_data/webdata/mly542.csv:
+  last_modified: Sat, 14 Jun 2025 15:47:36 GMT
+  etag: '"41439-5c31-6378a14e79600"'
 https://cli.fusio.net/cli/climate_data/webdata/mly575.csv:
   last_modified: Sat, 14 Jun 2025 15:49:02 GMT
   etag: '"4146b-3348-6378a1a07d780"'
 https://cli.fusio.net/cli/climate_data/webdata/mly675.csv:
   last_modified: Sat, 14 Jun 2025 15:49:03 GMT
   etag: '"414d6-31d7-6378a1a1719c0"'
+https://cli.fusio.net/cli/climate_data/webdata/mly718.csv:
+  last_modified: Sat, 14 Jun 2025 15:47:37 GMT
+  etag: '"414fa-5c7f-6378a14f6d840"'
 https://cli.fusio.net/cli/climate_data/webdata/mly775.csv:
   last_modified: Sat, 14 Jun 2025 15:49:03 GMT
   etag: '"41518-332a-6378a1a1719c0"'
+https://cli.fusio.net/cli/climate_data/webdata/mly820.csv:
+  last_modified: Wed, 12 Apr 2023 12:44:47 GMT
+  etag: '"41526-5342-5f922f91a2dc0"'
+https://cli.fusio.net/cli/climate_data/webdata/mly839.csv:
+  last_modified: Sat, 14 Jun 2025 15:47:38 GMT
+  etag: '"4152c-2d2c-6378a15061a80"'
 https://cli.fusio.net/cli/climate_data/webdata/mly875.csv:
   last_modified: Sat, 14 Jun 2025 15:49:07 GMT
   etag: '"4153e-b9fe-6378a1a5422c0"'
+https://cli.fusio.net/cli/climate_data/webdata/mly908.csv:
+  last_modified: Mon, 14 Apr 2025 15:48:13 GMT
+  etag: '"4154c-227f-632befaca4940"'
+https://cli.fusio.net/cli/climate_data/webdata/mly1033.csv:
+  last_modified: Sat, 14 Jun 2025 15:47:39 GMT
+  etag: '"41222-3503-6378a15155cc0"'
 https://cli.fusio.net/cli/climate_data/webdata/mly1075.csv:
   last_modified: Sat, 14 Jun 2025 15:49:03 GMT
   etag: '"41225-32bd-6378a1a1719c0"'
+https://cli.fusio.net/cli/climate_data/webdata/mly1103.csv:
+  last_modified: Wed, 07 Jun 2023 15:47:13 GMT
+  etag: '"41227-5438-5fd8c0ca5e240"'
+https://cli.fusio.net/cli/climate_data/webdata/mly1128.csv:
+  last_modified: Sat, 14 Jun 2025 15:47:40 GMT
+  etag: '"4122b-5dda-6378a15249f00"'
 https://cli.fusio.net/cli/climate_data/webdata/mly1175.csv:
   last_modified: Sat, 14 Jun 2025 15:49:03 GMT
   etag: '"4122e-30f2-6378a1a1719c0"'
+https://cli.fusio.net/cli/climate_data/webdata/mly1218.csv:
+  last_modified: Sat, 14 Jun 2025 15:47:41 GMT
+  etag: '"41231-6206-6378a1533e140"'
 https://cli.fusio.net/cli/climate_data/webdata/mly1275.csv:
   last_modified: Sat, 14 Jun 2025 15:49:04 GMT
   etag: '"41234-2d76-6378a1a265c00"'
+https://cli.fusio.net/cli/climate_data/webdata/mly1338.csv:
+  last_modified: Sat, 14 Jun 2025 15:47:43 GMT
+  etag: '"41238-5e3f-6378a155265c0"'
 https://cli.fusio.net/cli/climate_data/webdata/mly1375.csv:
   last_modified: Sat, 14 Jun 2025 15:49:04 GMT
   etag: '"41241-2e19-6378a1a265c00"'
@@ -238,6 +313,9 @@ https://cli.fusio.net/cli/climate_data/webdata/mly2375.csv:
 https://cli.fusio.net/cli/climate_data/webdata/mly2736.csv:
   last_modified: Sat, 14 Jun 2025 15:48:03 GMT
   etag: '"41338-30ec-6378a168392c0"'
+https://cli.fusio.net/cli/climate_data/webdata/mly2928.csv:
+  last_modified: Thu, 07 Apr 2022 15:54:14 GMT
+  etag: '"41343-eda-5dc127d581580"'
 https://cli.fusio.net/cli/climate_data/webdata/mly3205.csv:
   last_modified: Mon, 07 Oct 2019 16:38:24 GMT
   etag: '"41352-3df1-59454ae2e8000"'
@@ -247,6 +325,9 @@ https://cli.fusio.net/cli/climate_data/webdata/mly3335.csv:
 https://cli.fusio.net/cli/climate_data/webdata/mly3431.csv:
   last_modified: Sat, 14 Jun 2025 15:48:10 GMT
   etag: '"4135e-5344-6378a16ee6280"'
+https://cli.fusio.net/cli/climate_data/webdata/mly3522.csv:
+  last_modified: Sat, 14 Jun 2025 15:48:11 GMT
+  etag: '"41362-15ef-6378a16fda4c0"'
 https://cli.fusio.net/cli/climate_data/webdata/mly3723.csv:
   last_modified: Sat, 14 Jun 2025 15:49:06 GMT
   etag: '"4136c-9aa6-6378a1a44e080"'
@@ -262,6 +343,9 @@ https://cli.fusio.net/cli/climate_data/webdata/mly4705.csv:
 https://cli.fusio.net/cli/climate_data/webdata/mly4935.csv:
   last_modified: Sat, 14 Jun 2025 15:49:06 GMT
   etag: '"413f7-4860-6378a1a44e080"'
+https://cli.fusio.net/cli/climate_data/webdata/mly5513.csv:
+  last_modified: Sat, 14 Jun 2025 15:48:35 GMT
+  etag: '"41445-121e-6378a186bdac0"'
 https://cli.fusio.net/cli/climate_data/webdata/mly5911.csv:
   last_modified: Wed, 07 Aug 2019 16:37:29 GMT
   etag: '"41479-1e44-58f898e956440"'
