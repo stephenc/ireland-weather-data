@@ -1,5 +1,46 @@
 valentia:
-- https://cli.fusio.net/cli/climate_data/webdata/hly2275.csv
-- https://cli.fusio.net/cli/climate_data/webdata/dly2275.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/hly2275.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2275.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2275.csv
 malin-head:
-- https://cli.fusio.net/cli/climate_data/webdata/dly1575.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1575.csv
+phoenix-park:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly175.csv
+birr:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly4919.csv
+casement:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly3723.csv
+clones:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly2437.csv
+dunsany:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1375.csv
+mullingar:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly875.csv
+athenry:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1875.csv
+ballyhaise:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly675.csv
+belmullet:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2375.csv
+claremorris:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2175.csv
+finner:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2075.csv
+gurteen:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1475.csv
+killkenny:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly3613.csv
+markree:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1275.csv
+newport:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1175.csv
+rosslare:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly2615.csv
+knock-airport:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly4935.csv
+moore-park:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly575.csv
+mt-dillon:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1975.csv
+roches-point:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1075.csv
