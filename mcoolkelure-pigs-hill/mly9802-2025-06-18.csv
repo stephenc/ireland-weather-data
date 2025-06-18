@@ -1,0 +1,38 @@
+Station Name: M.COOLKELURE (PIG'S HILL)
+Station Height: 320 M 
+Latitude:51.714  ,Longitude: -9.219
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1948,1,8, , , , 
+1948,2,8, , , , 
+1948,3,8, , , , 
+1948,4,8, , , , 
+1948,5,0,38.1, , , 
+1948,6,0,173.2, , , 
+1948,7,0,137.4, , , 
+1948,8,0,228.9, , , 
+1948,9,0,182.6, , , 
+1948,10,0,309.6, , , 
+1948,11,0,207.0, , , 
+1948,12,0,459.7, , , 
+1949,1,0,143.0, , , 
+1949,2,0,137.9, , , 
+1949,3,0,48.8, , , 
+1949,4,0,165.1, , , 
+1949,5,0,158.8, , , 
+1949,6,0,64.0, , , 
+1949,7,0,106.7, , , 
+1949,8,0,137.2, , , 
+1949,9,0,166.1, , , 
+1949,10,8, , , , 
+1949,11,8, , , , 
+1949,12,8, , , , 

@@ -1,0 +1,20 @@
+Station Name: DRUIDS GLEN (Golf Course)
+Station Height: 55 M 
+Latitude:53.096  ,Longitude: -6.082
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+2014,1,0,187.2,17.4,30,27
+2014,2,0,204.5,28.0,24,23
+2014,3,0,68.5,12.0,18,13
+2014,4,0,58.0,11.1,12,12
+2014,5,0,98.0,32.5,19,16
+2014,9,0,7.9,4.0,4,2

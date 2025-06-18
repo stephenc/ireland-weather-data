@@ -1,0 +1,38 @@
+Station Name: AUGHRIM (BALLYTEIGE)
+Station Height: 183 M 
+Latitude:52.903  ,Longitude: -6.410
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1961,1,8, , , , 
+1961,2,8, , , , 
+1961,3,8, , , , 
+1961,4,8, , , , 
+1961,5,8, , , , 
+1961,6,8, , , , 
+1961,7,8, , , , 
+1961,8,8, , , , 
+1961,9,8, , , , 
+1961,10,8, , , , 
+1961,11,8, , , , 
+1961,12,8, , , , 
+1962,1,8, , , , 
+1962,2,8, , , , 
+1962,3,8, , , , 
+1962,4,8, , , , 
+1962,5,8, , , , 
+1962,6,8, , , , 
+1962,7,8, , , , 
+1962,8,8, , , , 
+1962,9,8, , , , 
+1962,10,8, , , , 
+1962,11,8, , , , 
+1962,12,8, , , , 

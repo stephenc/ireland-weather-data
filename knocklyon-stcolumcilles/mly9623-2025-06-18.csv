@@ -1,0 +1,19 @@
+Station Name: KNOCKLYON (ST.COLUMCILLE'S)
+Station Height: 88 M 
+Latitude:53.277  ,Longitude: -6.317
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+2004,3,0,45.3, , , 
+2005,3,0,48.2,13.0,15,8
+2005,4,0,69.0,16.0,23,13
+2005,5,1,85.3, , , 
+2005,6,0,33.1, ,14,8

@@ -1,0 +1,26 @@
+Station Name: CAPE CLEAR
+Station Height: 9 M 
+Latitude:51.442  ,Longitude: -9.506
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1963,1,8, , , , 
+1963,2,8, , , , 
+1963,3,8, , , , 
+1963,4,8, , , , 
+1963,5,8, , , , 
+1963,6,0,48.4,7.6,15,9
+1963,7,0,73.8,15.9,18,11
+1963,8,0,114.1,26.3,19,14
+1963,9,0,50.8,11.5,15,10
+1963,10,8, , , , 
+1963,11,0,153.1,25.1,19,17
+1963,12,0,44.4, ,11,9

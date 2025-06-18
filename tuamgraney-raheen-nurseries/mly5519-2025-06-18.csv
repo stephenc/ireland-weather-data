@@ -1,0 +1,26 @@
+Station Name: TUAMGRANEY (RAHEEN NURSERIES)
+Station Height: 82 M 
+Latitude:52.892  ,Longitude: -8.508
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1960,1,8, , , , 
+1960,2,8, , , , 
+1960,3,8, , , , 
+1960,4,8, , , , 
+1960,5,8, , , , 
+1960,6,8, , , , 
+1960,7,8, , , , 
+1960,8,8, , , , 
+1960,9,8, , , , 
+1960,10,8, , , , 
+1960,11,8, , , , 
+1960,12,8, , , , 

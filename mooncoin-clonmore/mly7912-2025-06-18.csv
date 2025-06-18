@@ -1,0 +1,24 @@
+Station Name: MOONCOIN (CLONMORE)
+Station Height: 15 M 
+Latitude:52.302  ,Longitude: -7.281
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1993,1,8, , , , 
+1993,2,8, , , , 
+1993,3,8, , , , 
+1993,4,8, , , , 
+1993,5,0,176.4,50.0,20,15
+1993,6,0,55.1, ,12,9
+1993,7,0,71.2,22.0,14,12
+1993,8,0,26.4,6.0,10,7
+1993,9,0,177.7,46.2,18,14
+1993,10,0,66.7,22.0,11,9

@@ -1,0 +1,16 @@
+Station Name: ROSTELLAN
+Station Height: 15 M 
+Latitude:51.841  ,Longitude: -8.181
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+2003,2,0,68.8,12.9,19,13
+2003,3,0,58.3,8.0,15,12

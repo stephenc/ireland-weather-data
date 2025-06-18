@@ -1,0 +1,25 @@
+Station Name: BALLYBAY_WETLANDS
+Station Height: 64 M 
+Latitude:54.126  ,Longitude: -6.923
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+2008,10,0,122.3,18.1,25,21
+2008,11,0,56.7,10.5,18,13
+2008,12,0,61.8,17.2,14,12
+2009,1,1,126.2,45.0,18,16
+2009,2,0,21.9,5.0,15,8
+2009,3,0,48.8,7.2,20,16
+2009,4,0,118.5,18.9,21,17
+2009,5,0,100.8,13.0,21,19
+2009,6,0,61.1,24.5,11,8
+2009,7,0,163.2,20.0,24,23
+2009,8,0,118.0, , , 

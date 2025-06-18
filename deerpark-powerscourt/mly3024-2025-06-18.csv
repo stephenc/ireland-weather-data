@@ -1,0 +1,26 @@
+Station Name: DEERPARK POWERSCOURT
+Station Height: 381 M 
+Latitude:53.147  ,Longitude: -6.226
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1982,1,8, , , , 
+1982,2,8, , , , 
+1982,3,0,114.2, , , 
+1982,4,0,44.6, , , 
+1982,5,8, , , , 
+1982,6,0,224.1, , , 
+1982,7,8, , , , 
+1982,8,8, , , , 
+1982,9,8, , , , 
+1982,10,8, , , , 
+1982,11,8, , , , 
+1982,12,8, , , , 

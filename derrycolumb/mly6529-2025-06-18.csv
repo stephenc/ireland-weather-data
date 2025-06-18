@@ -1,0 +1,21 @@
+Station Name: DERRYCOLUMB
+Station Height: 52 M 
+Latitude:53.600  ,Longitude: -7.879
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1993,1,8, , , , 
+1993,2,8, , , , 
+1993,3,8, , , , 
+1993,4,0,125.5, , , 
+1993,5,0,89.3,17.5, , 
+1993,6,0,115.1, , , 
+1993,7,9,66.9, , , 

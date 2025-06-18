@@ -1,0 +1,38 @@
+Station Name: ARDEE (DE LA SALLE)
+Station Height: 30 M 
+Latitude:53.851  ,Longitude: -6.536
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1963,1,8, , , , 
+1963,2,8, , , , 
+1963,3,8, , , , 
+1963,4,8, , , , 
+1963,5,8, , , , 
+1963,6,8, , , , 
+1963,7,8, , , , 
+1963,8,8, , , , 
+1963,9,8, , , , 
+1963,10,8, , , , 
+1963,11,8, , , , 
+1963,12,0,17.4,5.5,13,6
+1964,1,0,38.8,20.0,10,8
+1964,2,0,38.2,10.6,15,7
+1964,3,8, , , , 
+1964,4,8, , , , 
+1964,5,8, , , , 
+1964,6,8, , , , 
+1964,7,8, , , , 
+1964,8,8, , , , 
+1964,9,0,52.5, , , 
+1964,10,8, , , , 
+1964,11,0,39.8, ,13,11
+1964,12,8, , , , 

@@ -1,0 +1,26 @@
+Station Name: BANGOR ERRIS (MUINGNAHALLOONA)
+Station Height: 29 M 
+Latitude:54.109  ,Longitude: -9.761
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1988,1,8, , , , 
+1988,2,8, , , , 
+1988,3,8, , , , 
+1988,4,8, , , , 
+1988,5,8, , , , 
+1988,6,8, , , , 
+1988,7,8, , , , 
+1988,8,0,146.4,19.0,24,20
+1988,9,0,128.4,25.4,22,18
+1988,10,8, , , , 
+1988,11,8, , , , 
+1988,12,8, , , , 

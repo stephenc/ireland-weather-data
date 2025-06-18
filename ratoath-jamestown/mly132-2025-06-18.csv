@@ -1,0 +1,38 @@
+Station Name: RATOATH (Jamestown)
+Station Height: 85 M 
+Latitude:53.503  ,Longitude: -6.456
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1957,1,8, , , , 
+1957,2,8, , , , 
+1957,3,8, , , , 
+1957,4,8, , , , 
+1957,5,8, , , , 
+1957,6,8, , , , 
+1957,7,8, , , , 
+1957,8,8, , , , 
+1957,9,8, , , , 
+1957,10,8, , , , 
+1957,11,0,52.3, , , 
+1957,12,0,87.4,13.0,14,12
+1958,1,8, , , , 
+1958,2,8, , , , 
+1958,3,8, , , , 
+1958,4,8, , , , 
+1958,5,8, , , , 
+1958,6,8, , , , 
+1958,7,8, , , , 
+1958,8,8, , , , 
+1958,9,8, , , , 
+1958,10,8, , , , 
+1958,11,8, , , , 
+1958,12,8, , , , 

@@ -1,0 +1,24 @@
+Station Name: BARNATRA (KNOCKNALOWER)
+Station Height: 72 M 
+Latitude:54.243  ,Longitude: -9.812
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+2005,2,0,79.3, ,19,16
+2005,3,0,66.8,17.5,24,15
+2005,4,0,94.3,17.2,21,18
+2005,6,0,88.5,14.0,18,13
+2005,7,0,46.5, ,18,13
+2005,8,9,88.3, , , 
+2005,9,0,163.7,30.2,24,19
+2005,10,1,145.8, ,27,24
+2005,11,1,136.6,12.1,22,20
+2005,12,0,162.8,35.4,24,23

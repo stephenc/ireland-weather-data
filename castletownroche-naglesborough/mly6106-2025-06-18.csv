@@ -1,0 +1,38 @@
+Station Name: CASTLETOWNROCHE (NAGLESBOROUGH)
+Station Height: 67 M 
+Latitude:52.181  ,Longitude: -8.477
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1985,1,8, , , , 
+1985,2,8, , , , 
+1985,3,8, , , , 
+1985,4,8, , , , 
+1985,5,8, , , , 
+1985,6,8, , , , 
+1985,7,0,29.2,5.3,13,11
+1985,8,8, , , , 
+1985,9,8, , , , 
+1985,10,8, , , , 
+1985,11,8, , , , 
+1985,12,9,138.4, , , 
+1986,1,8, , , , 
+1986,2,8, , , , 
+1986,3,8, , , , 
+1986,4,0,57.5,11.6, , 
+1986,5,8, , , , 
+1986,6,8, , , , 
+1986,7,8, , , , 
+1986,8,8, , , , 
+1986,9,8, , , , 
+1986,10,8, , , , 
+1986,11,8, , , , 
+1986,12,8, , , , 

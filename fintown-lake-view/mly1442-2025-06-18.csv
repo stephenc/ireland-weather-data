@@ -1,0 +1,38 @@
+Station Name: FINTOWN (LAKE VIEW)
+Station Height: 152 M 
+Latitude:54.867  ,Longitude: -8.128
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1967,1,8, , , , 
+1967,2,8, , , , 
+1967,3,8, , , , 
+1967,4,8, , , , 
+1967,5,8, , , , 
+1967,6,8, , , , 
+1967,7,8, , , , 
+1967,8,8, , , , 
+1967,9,8, , , , 
+1967,10,8, , , , 
+1967,11,0,149.7,14.3,23,20
+1967,12,0,215.6,26.4,30,28
+1968,1,1,222.3, ,29,29
+1968,2,0,75.1,18.3,12,10
+1968,3,0,183.6, ,31,25
+1968,4,0,90.3,16.5,22,15
+1968,5,8, , , , 
+1968,6,8, , , , 
+1968,7,8, , , , 
+1968,8,8, , , , 
+1968,9,8, , , , 
+1968,10,8, , , , 
+1968,11,8, , , , 
+1968,12,8, , , , 

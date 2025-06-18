@@ -1,0 +1,26 @@
+Station Name: GEESALA PEAT POWER LTD.
+Station Height: 27 M 
+Latitude:54.146  ,Longitude: -9.065
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1988,1,8, , , , 
+1988,2,8, , , , 
+1988,3,8, , , , 
+1988,4,8, , , , 
+1988,5,8, , , , 
+1988,6,8, , , , 
+1988,7,0,144.8, , , 
+1988,8,0,179.6,22.4, , 
+1988,9,0,156.5,37.4, , 
+1988,10,0,126.1, , , 
+1988,11,8, , , , 
+1988,12,8, , , , 

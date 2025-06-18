@@ -1,0 +1,10 @@
+Station Name: TALLAGHT
+Station Height: 85 M 
+Latitude:53.286  ,Longitude: -6.351
+
+
+date:  -  09 to 09 utc
+rain:  -  Precipitation Amount (mm)
+ind:   -  Indicator
+
+date,ind,rain

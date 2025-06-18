@@ -1,0 +1,24 @@
+Station Name: ARVA (KILGARVE)
+Station Height: 76 M 
+Latitude:53.907  ,Longitude: -7.578
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1995,11,0,125.1,25.6,20,15
+1995,12,1,65.8, ,15,13
+1996,1,1,66.5,10.3, , 
+1996,2,9,96.0, , , 
+1996,3,9,51.3, , , 
+1996,4,9,80.1, , , 
+1996,6,9,21.7, , , 
+1996,9,9,30.6, , , 
+1996,10,9,144.6, , , 
+1996,11,9,91.5, , , 

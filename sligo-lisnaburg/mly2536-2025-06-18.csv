@@ -1,0 +1,26 @@
+Station Name: SLIGO (LISNABURG)
+Station Height: 15 M 
+Latitude:54.285  ,Longitude: -8.469
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1984,1,8, , , , 
+1984,2,0,95.4,13.9,19,17
+1984,3,0,63.9,26.6,15,8
+1984,4,8, , , , 
+1984,5,8, , , , 
+1984,6,8, , , , 
+1984,7,8, , , , 
+1984,8,8, , , , 
+1984,9,8, , , , 
+1984,10,8, , , , 
+1984,11,8, , , , 
+1984,12,8, , , , 

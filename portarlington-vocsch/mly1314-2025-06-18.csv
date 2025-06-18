@@ -1,0 +1,38 @@
+Station Name: PORTARLINGTON (VOC.SCH.)
+Station Height: 70 M 
+Latitude:53.161  ,Longitude: -7.188
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1960,1,8, , , , 
+1960,2,8, , , , 
+1960,3,8, , , , 
+1960,4,8, , , , 
+1960,5,8, , , , 
+1960,6,8, , , , 
+1960,7,8, , , , 
+1960,8,8, , , , 
+1960,9,8, , , , 
+1960,10,8, , , , 
+1960,11,8, , , , 
+1960,12,0,117.0,30.0,18,17
+1961,1,0,121.6, ,18,16
+1961,2,0,58.0,11.3,16,14
+1961,3,0,5.6,2.1,4,4
+1961,4,0,80.1,15.6,22,20
+1961,5,8, , , , 
+1961,6,8, , , , 
+1961,7,8, , , , 
+1961,8,8, , , , 
+1961,9,8, , , , 
+1961,10,8, , , , 
+1961,11,8, , , , 
+1961,12,8, , , , 

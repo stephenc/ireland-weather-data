@@ -1,0 +1,29 @@
+Station Name: CLOONTUSKERT
+Station Height: 55 M 
+Latitude:53.703  ,Longitude: -8.034
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1993,1,8, , , , 
+1993,2,8, , , , 
+1993,3,8, , , , 
+1993,4,0,87.8, , , 
+1993,5,8, , , , 
+1993,6,0,118.6, , , 
+1993,7,0,78.5, , , 
+1993,8,0,59.6, , , 
+1993,9,0,89.7,19.0,14,12
+1993,11,9,43.8, , , 
+1993,12,9,195.6, , , 
+1994,1,9,147.3, , , 
+1994,2,9,100.0, , , 
+1994,3,9,114.9, , , 
+1994,4,9,89.7, , , 

@@ -1,0 +1,38 @@
+Station Name: BALLYHAUNIS (AGHAMORE)
+Station Height: 131 M 
+Latitude:53.818  ,Longitude: -8.815
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1990,1,8, , , , 
+1990,2,8, , , , 
+1990,3,8, , , , 
+1990,4,8, , , , 
+1990,5,8, , , , 
+1990,6,8, , , , 
+1990,7,8, , , , 
+1990,8,8, , , , 
+1990,9,8, , , , 
+1990,10,0,197.1,21.6,25,24
+1990,11,0,105.8,21.4,19,17
+1990,12,0,199.9,34.5,19,17
+1991,1,0,113.2,17.0,20,17
+1991,2,0,96.9,15.9,18,12
+1991,3,0,136.9,26.7,23,18
+1991,4,0,172.7,36.2, , 
+1991,5,8, , , , 
+1991,6,8, , , , 
+1991,7,8, , , , 
+1991,8,8, , , , 
+1991,9,8, , , , 
+1991,10,8, , , , 
+1991,11,8, , , , 
+1991,12,8, , , , 

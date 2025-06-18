@@ -1,0 +1,17 @@
+Station Name: KNOCKNAGOSHEL (LOWER DERK)
+Station Height: 195 M 
+Latitude:52.369  ,Longitude: -9.389
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1999,4,0,106.5,22.4,20,19
+1999,5,1,52.0,13.6,14,10
+1999,6,0,55.2,9.5,15,15

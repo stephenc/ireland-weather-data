@@ -1,0 +1,15 @@
+Station Name: DRUMCLIFFE (CULLAGHBEG)
+Station Height: 15 M 
+Latitude:54.335  ,Longitude: -8.498
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+2003,4,0,28.8,8.7,9,7

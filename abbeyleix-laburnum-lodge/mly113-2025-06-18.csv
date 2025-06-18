@@ -1,0 +1,38 @@
+Station Name: ABBEYLEIX (Laburnum Lodge)
+Station Height: 122 M 
+Latitude:52.917  ,Longitude: -7.333
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1941,1,0,57.2, , , 
+1941,2,0,81.3, , , 
+1941,3,0,59.9, , , 
+1941,4,0,50.3, , , 
+1941,5,0,55.9, , , 
+1941,6,0,16.8, , , 
+1941,7,0,67.8, , , 
+1941,8,0,82.8, , , 
+1941,9,8, , , , 
+1941,10,0,81.3, , , 
+1941,11,0,115.6, , , 
+1941,12,0,34.3, , , 
+1942,1,0,113.0, , , 
+1942,2,0,22.9, , , 
+1942,3,0,10.2, , , 
+1942,4,0,1.3, ,0,0
+1942,5,0,78.7, , , 
+1942,6,0,6.6, , , 
+1942,7,0,61.0, , , 
+1942,8,8, , , , 
+1942,9,8, , , , 
+1942,10,8, , , , 
+1942,11,8, , , , 
+1942,12,8, , , , 

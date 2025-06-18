@@ -1,0 +1,18 @@
+Station Name: KEEL (SANDY BANKS)
+Station Height: 10 M 
+Latitude:53.977  ,Longitude: -10.075
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1994,8,0,115.4, ,23,19
+1994,9,1,99.1, , , 
+1994,10,1,90.1, , , 
+1994,11,9,123.8, , , 

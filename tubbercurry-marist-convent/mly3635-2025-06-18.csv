@@ -1,0 +1,26 @@
+Station Name: TUBBERCURRY (MARIST CONVENT)
+Station Height: 91 M 
+Latitude:54.054  ,Longitude: -8.724
+
+
+year:  -  Year
+month: -  Month
+rain:  -  Precipitation Amount (mm)
+gdf:   -  Greatest daily fall (mm)
+rd:    -  Number of rain days (0.2mm or more)
+wd:    -  Number of wet days (1.0 mm or more)	
+ind:   -  Indicator
+
+year,month,ind,rain,gdf,rd,wd
+1969,1,8, , , , 
+1969,2,8, , , , 
+1969,3,8, , , , 
+1969,4,8, , , , 
+1969,5,8, , , , 
+1969,6,8, , , , 
+1969,7,0,18.8,5.1,11,5
+1969,8,8, , , , 
+1969,9,0,62.0, ,16,13
+1969,10,1,73.2,12.5,20,15
+1969,11,0,131.6,14.8,27,23
+1969,12,8, , , , 
