@@ -122,6 +122,48 @@ ballymore:
 dooks:
   - https://cli.fusio.net/cli/climate_data/webdata/dly4705.csv
   - https://cli.fusio.net/cli/climate_data/webdata/mly4705.csv
+horseleap:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly3522.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly3522.csv
+durrow:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly5513.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly5513.csv
+athleague:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly2928.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly2928.csv
+cloghane: 
+  - https://cli.fusio.net/cli/climate_data/webdata/dly509.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly509.csv
+greencastle:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly542.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly542.csv
+corofin:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly718.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly718.csv
+moneystown:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly820.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly820.csv
+emyvale:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly839.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly839.csv
+duncannon:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly908.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly908.csv
+murrisk:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1033.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1033.csv
+sneem:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1103.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1103.csv
+loughglinn:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1128.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1128.csv
+tulla:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1218.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1218.csv
+omeath:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1338.csv
+  - https://cli.fusio.net/cli/climate_data/webdata/mly1338.csv
 
 
 ##### Closed Stations (no point in re-scraping)
