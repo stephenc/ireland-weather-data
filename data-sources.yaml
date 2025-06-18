@@ -44,3 +44,25 @@ mt-dillon:
   - https://cli.fusio.net/cli/climate_data/webdata/dly1975.csv
 roches-point:
   - https://cli.fusio.net/cli/climate_data/webdata/dly1075.csv
+cork-airport:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly3904.csv
+dublin-airport:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly532.csv
+foynes-airport:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly611.csv
+mace-head:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly275.csv
+malin-head:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1575.csv
+shannon-airport:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly518.csv
+sherkin-island:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly775.csv
+johnstownii:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly1775.csv
+camp-glannagalt:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly2109.csv
+galway-sws:
+  - https://cli.fusio.net/cli/climate_data/webdatac/dly2021.csv
+killarney-huckross-house:
+  - https://cli.fusio.net/cli/climate_data/webdata/dly3205.csv
