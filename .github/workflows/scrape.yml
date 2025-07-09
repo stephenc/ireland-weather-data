@@ -16,7 +16,7 @@ name: Weekly Climate Data Fetch
 
 on:
   schedule:
-    - cron: '0 0 * * 1' # every Monday at 00:00 UTC
+    - cron: '0 0 * * 3' # every Wednesday at 00:00 UTC
   workflow_dispatch:
   push:
     paths:
@@ -38,7 +38,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.22'
+          go-version: '1.24'
 
       - name: Run data fetcher
         run: go run ./main.go
